@@ -1,13 +1,13 @@
 function whois(){
   var message  = "";
 
-  var URL      = "";  //更新を感知したいドメイン
+  var URL      = "ドメイン";  //更新を感知したいドメイン
   var response = UrlFetchApp.fetch("http://api.whoisproxy.info/whois/" + URL);   /* https://chanshige.hatenablog.com/entry/2019/02/16/184907 */
   var json     = JSON.parse(response.getContentText()); //apiをjsonに変換
   var Datelist = json["results"]["detail"]["date"];   //jsonからdate部分を引っ張り出す
   
   //----------スプレッドシート-------------------------------------------------------------------------------
-  var SpreadSheetId = SpreadsheetApp.openById('※1');
+  var SpreadSheetId = SpreadsheetApp.openById('スプレッドシートID');
   var Sheet         = SpreadSheetId.getActiveSheet(); 
   var lastRow       = Sheet.getLastRow();
   //------------------------------------------------------------------------------------------------------
