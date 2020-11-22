@@ -14,7 +14,6 @@ function whois(){
   
   
   //-------------------------------
-  /*2020年11月8日現在*/
   var oldUpdatedDate    = Sheet.getRange(lastRow,2).getValue();
   var oldCreationDate   = Sheet.getRange(lastRow,3).getValue();
   var oldExpirationDate = Sheet.getRange(lastRow,4).getValue();
