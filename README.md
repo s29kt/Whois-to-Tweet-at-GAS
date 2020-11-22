@@ -19,7 +19,7 @@ Googleのスプレッドシートを新規作成し、下のように入力し�
 GASとTwitter APIの連携は下記サイトを参考にしてますので、サイト通りに連携してください。<br>
 >https://tech-cci.io/archives/4228
 
-また、ライブラリで下記コードを追加してください。
+また、ライブラリで下記コードを入力、追加してください。
 
 `1CXDCY5sqT9ph64fFwSzVtXnbjpSfWdRymafDrtIZ7Z_hwysTY7IIhi7s`<br>
 `1rgo8rXsxi1DxI_5Xgo_t3irTw1Y5cxl2mGSkbozKsSXf2E_KBBPC3xTF`
